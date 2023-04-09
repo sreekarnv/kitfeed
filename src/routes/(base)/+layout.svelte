@@ -5,8 +5,12 @@
 
 	const links = [
 		{ href: '/', label: 'Home' },
-		{ href: '/posts/new', label: 'New Post' },
+		{ href: '/users', label: 'Users' },
 	];
+
+	if ($page.data.session?.user) {
+		links.push({ href: '/posts/new', label: 'New Post' });
+	}
 </script>
 
 <header>
