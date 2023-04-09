@@ -15,7 +15,7 @@
 
 <header>
 	<nav class="grid grid-cols-3 justify-items-center items-center py-8">
-		<a class="font-semibold text-xl" href="/">Navbar</a>
+		<a class="font-semibold text-xl" href="/">Kitfeed</a>
 		<ul class="flex items-center gap-x-4">
 			{#each links as link}
 				<li>
